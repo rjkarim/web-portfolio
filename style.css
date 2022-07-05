@@ -1,3 +1,87 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.top-banner {
+    display: flex;
+    height: 750px;
+    margin-bottom: 100px !important;
+}
+
+.half-whidh {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.half-whidh img {
+    width: 100%;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    /* background-color: bisque; */
+    height: 650px;
+}
+
+.half-whidh a {
+    background-color: tomato;
+    padding: 8px 17px;
+    text-decoration: none;
+    border-radius: 17px;
+    color: white;
+}
+
+#dream-big {
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+}
+
+.experience-main {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 150px;
+}
+
+.experience {
+    display: flex;
+    margin-left: 5%;
+}
+
+.experience-item {
+    width: 40%;
+    /* margin: auto; */
+    margin-right: 10%;
+    border-left: 10px solid orange;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 1px 2px 8px 0px grey;
+    display: block;
+}
+
+#ex2 {
+    border-left: 10px solid blue;
+}
+
+.experience-item h2 {
+    font-size: 30px;
+}
+
+.experience-item h3 {
+    color: tomato;
+}
+
+.footer p {
+    text-align: center;
 }
